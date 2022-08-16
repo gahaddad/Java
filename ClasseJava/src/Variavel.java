@@ -10,10 +10,10 @@ public class Variavel{
     
         System.out.println ("idade " + idade);
         System.out.println ("ano " + ano);
-        System.out.println ("cpf" + cpf);
+        System.out.println ("cpf " + cpf);
         System.out.println(salario);
         
-        
+        System.out.println();
         /*variavel numero com valor 5 regra: tipo + nome + valor*/
         int numero = 5;
         /*na linha abaixo iremos alterar o valor da variavel para 10, 
