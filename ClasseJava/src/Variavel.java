@@ -1,5 +1,5 @@
 public class Variavel{
-     public static void main(String[]args){
+     public static void main(String[] args){
     
         byte idade = 22;
         short ano = 2022;
@@ -10,7 +10,17 @@ public class Variavel{
     
         System.out.println ("idade " + idade);
         System.out.println ("ano " + ano);
-        System.out.println ("cpf " + cpf);
+        System.out.println ("cpf" + cpf);
+        System.out.println(salario);
+        
+
+        /*variavel numero com valor 5 regra: tipo + nome + valor*/
+        int numero = 5;
+        /*na linha abaixo iremos alterar o valor da variavel para 10, 
+        observe que o tipo não é mais necessario, pois a variavel foi declarada anteriormente*/
+        numero = 10;
+
+        System.out.println(numero);
     }
 }
 
