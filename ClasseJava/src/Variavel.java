@@ -13,14 +13,18 @@ public class Variavel{
         System.out.println ("cpf" + cpf);
         System.out.println(salario);
         
-
+        
         /*variavel numero com valor 5 regra: tipo + nome + valor*/
         int numero = 5;
         /*na linha abaixo iremos alterar o valor da variavel para 10, 
         observe que o tipo não é mais necessario, pois a variavel foi declarada anteriormente*/
         numero = 10;
-
         System.out.println(numero);
+
+
+        /*final double VALOR_DE_PI = 3.14;
+        VALOR_DE_PI=3.15; //Esta linha vai apresentar erro de compilação
+        */
     }
 }
 
