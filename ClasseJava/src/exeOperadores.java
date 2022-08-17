@@ -8,6 +8,13 @@ public class exeOperadores {
         atribuicao();
         System.out.println("Precedência");
         precedencia();
+
+        int numero = 5;
+        //Imprimir o numero negarivo
+        //System.out.println(-numero);
+        numero = - numero;
+        numero = numero *-1;
+        System.out.println(numero);
     }
 
     private static void prePos(){
