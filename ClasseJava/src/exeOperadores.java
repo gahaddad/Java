@@ -1,8 +1,3 @@
-import java.net.SocketTimeoutException;
-import java.rmi.StubNotFoundException;
-
-import javax.sound.sampled.SourceDataLine;
-
 public class exeOperadores {
     public static void main(String[] args){
         System.out.println("PrePos");
@@ -51,7 +46,7 @@ public class exeOperadores {
     private static void atribuicao(){
         int i = 1500;
         short j = 15;
-        long l = 500l;
+        long l = 500L;
         int k = 35;
         float f = 3.5f;
         double d = f;
@@ -68,6 +63,7 @@ public class exeOperadores {
 
         System.out.println(k);
         System.out.println(i);
+        System.out.println(l);
     }
 
     private static void precedencia(){

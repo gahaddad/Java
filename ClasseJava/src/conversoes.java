@@ -28,11 +28,12 @@ public class conversoes {
 
         float f2;
         float f3;
-        double d2 = 1000.58d; //downcast caabe dentro do float
+        double d2 = 1000.58d; //downcast cabe dentro do float
         f2 = (float) d2;
         double d3 = 1000.5888888888888888; //houve perda de informação
         f3 = (float) d3;
         System.out.println(f3);
+        System.out.println(f2);
 
         int i4;
         float f4 = 11.5697f;
