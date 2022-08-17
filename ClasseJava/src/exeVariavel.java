@@ -8,7 +8,7 @@ public class exeVariavel {
         short s2 = 4000;
     
         int i1 = 10000;
-         int i2 = 30000;
+        int i2 = 30000;
              
         long l1 = 100000L;
         long l2 = 500000L;
@@ -19,13 +19,13 @@ public class exeVariavel {
         double d1 = 85.69;
         double d2 = 99.75;
     
-        char c1 = 'W';
-        char c2 = 't'; //não aceita dois caractres
+        char c1 = 'E';
+        //char c2 = 'Tw'; //não aceita dois caractres
         char c3 = '\u0057';
     
         String st1 = "Gabriel";
         String st2 = "Haddad";
-        String st3 = "teste 3663636";
+        String st3 = "Exercicio 1";
 
         boolean bo1 = true;
         boolean bo2 = false;
@@ -49,7 +49,7 @@ public class exeVariavel {
         System.out.println(d2);
 
         System.out.println(c1);
-        System.out.println(c2);
+        //System.out.println(c2);
         System.out.println(c3);
 
         System.out.println(st1);
@@ -58,8 +58,6 @@ public class exeVariavel {
 
         System.out.println(bo1);
         System.out.println(bo2);
-
-
 
      };
 }
