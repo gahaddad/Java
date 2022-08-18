@@ -9,12 +9,13 @@ public class condicional {
         }
 
     }
+    
     public static void main(String[] args){
         String empresa1 = "Fintec";
-        String empresa2 = new String(original: "Funtec");
+        String empresa2 = new String("Funtec");
 
-       equals = empresa1.equals(empresa2);
-       System.out.println(equals);
+    
+       System.out.println(empresa1.equals(empresa2));
 
     }
 }
