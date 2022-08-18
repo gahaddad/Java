@@ -1,7 +1,7 @@
 public class ContaFina {
     public static void main(String[] args){
-        String banco;
-        String titular;
+       // String banco;
+       // String titular;
 
         double salarioInicial = 1500.00;
         double Retirada = 150.00;
