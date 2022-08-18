@@ -8,9 +8,10 @@ public class ContaFina {
 
         if(salarioInicial < Retirada){
             System.out.println("Voce não possue saldo");
+        }else{
+            System.out.println("pode sacar");
         }
-        if(titular.equals("gabriel")&&)
+        //if(titular.equals("gabriel")&&banco)
 
     }
-    ind idade = 15
 }
