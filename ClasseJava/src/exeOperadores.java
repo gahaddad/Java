@@ -1,4 +1,4 @@
-package Edu.Gabriel;
+
 public class exeOperadores {
     public static void main(String[] args){
         System.out.println("PrePos");
