@@ -1,0 +1,97 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java-1_5f6923a2"
+        },
+        {
+            "type": "java",
+            "name": "Launch BalançoTrimestral",
+            "request": "launch",
+            "mainClass": "BalançoTrimestral",
+            "projectName": "Java-1_5f6923a2"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContaFina",
+            "request": "launch",
+            "mainClass": "ContaFina",
+            "projectName": "Java-1_5f6923a2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Variavel",
+            "request": "launch",
+            "mainClass": "Variavel",
+            "projectName": "Java-1_5f6923a2"
+        },
+        {
+            "type": "java",
+            "name": "Launch condicional",
+            "request": "launch",
+            "mainClass": "condicional",
+            "projectName": "Java-1_5f6923a2"
+        },
+        {
+            "type": "java",
+            "name": "Launch conversoes",
+            "request": "launch",
+            "mainClass": "conversoes",
+            "projectName": "Java-1_5f6923a2"
+        },
+        {
+            "type": "java",
+            "name": "Launch exeOperadores",
+            "request": "launch",
+            "mainClass": "exeOperadores",
+            "projectName": "Java-1_5f6923a2"
+        },
+        {
+            "type": "java",
+            "name": "Launch exeVariavel",
+            "request": "launch",
+            "mainClass": "exeVariavel",
+            "projectName": "Java-1_5f6923a2"
+        },
+        {
+            "type": "java",
+            "name": "Launch idade",
+            "request": "launch",
+            "mainClass": "idade",
+            "projectName": "Java-1_5f6923a2"
+        },
+        {
+            "type": "java",
+            "name": "Launch operadores",
+            "request": "launch",
+            "mainClass": "operadores",
+            "projectName": "Java-1_5f6923a2"
+        },
+        {
+            "type": "java",
+            "name": "Launch sobreMim",
+            "request": "launch",
+            "mainClass": "sobreMim",
+            "projectName": "Java-1_5f6923a2",
+            "args":[
+                "Gabriel",
+                "Haddad",
+                "22",
+                "1.76",
+            ]
+        }
+    ]
+}
