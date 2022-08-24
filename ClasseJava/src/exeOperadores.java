@@ -31,7 +31,7 @@ public class exeOperadores {
     }
 
     private static void aritimetico(){
-
+        /*aa */
         int a = 10;
         int b = 20;
         int c = 30;

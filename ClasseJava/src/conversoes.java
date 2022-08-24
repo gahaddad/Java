@@ -35,6 +35,8 @@ public class conversoes {
         System.out.println(f3);
         System.out.println(f2);
 
+
+        
         int i4;
         float f4 = 11.5697f;
         i4 = (int) f4;
