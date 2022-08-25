@@ -1,4 +1,5 @@
 package Switch;
+
 public class Switch {
     public static void main(String[] args) {
         
@@ -15,10 +16,7 @@ public class Switch {
             case "B":{
                 System.out.println("50b Youtube");
             }
-
         }
 
-
-    }
-    
+    } 
 }
