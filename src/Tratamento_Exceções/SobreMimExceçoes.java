@@ -40,4 +40,5 @@ public class SobreMimExceçoes {
 }
 /* try é a tentativa.
  * catch é o que sera feito quando aqule tipo de excessão(erro) acontecer.
+ * usado para avisar que foi colocado informação errado no campo.
  */

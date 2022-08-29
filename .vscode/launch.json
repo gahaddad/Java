@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FormartarCep",
+            "request": "launch",
+            "mainClass": "Tratamento_Exceções.FormartarCep",
+            "projectName": "Java_19528381"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploExcecao",
+            "request": "launch",
+            "mainClass": "Tratamento_Exceções.ExemploExcecao",
+            "projectName": "Java_19528381"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -86,11 +100,11 @@
             "request": "launch",
             "mainClass": "sobreMim",
             "projectName": "Java-1_5f6923a2",
-            "args":[
+            "args": [
                 "Gabriel",
                 "Haddad",
                 "22",
-                "1.76",
+                "1.76"
             ]
         }
     ]
