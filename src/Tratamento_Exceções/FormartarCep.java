@@ -6,12 +6,13 @@ public class FormartarCep {
     try {
         String cepFormatado = formatarCep("14025180");
         System.out.println(cepFormatado);
-    } catch (CepInvalido e) {
+    } 
+    catch (CepInvalido e) {
         System.out.println("o cep não corresponde as regras");
         e.printStackTrace();
     }
     }
-/*O fato de eu qyuerer usar o formartarCep ja exige que eu use o try catch
+/*O fato de eu querer usar o formartarCep ja exige que eu use o try catch
 pq ela é uma expeption, não é um erro, mas uma exceção*/
 
     //criando ometodo de formatação
@@ -21,5 +22,4 @@ pq ela é uma expeption, não é um erro, mas uma exceção*/
             throw new CepInvalido(); //aqui a condição que ele ira lançar
             return "14.025-180"; //simulando um cep formatado
     }
-    
 }
