@@ -29,8 +29,9 @@ public class SobreMimExceçoes {
         System.out.println("Olá me chamo " + nome + " "+ sobrenome);
         System.out.println("tenho " + idade + " anos");
         System.out.println("Minha altura é " + altura + "metros");
-        scanner.close();    
-
+        scanner.close();
+        
+             //pegeuei no terminal, depois de dar erro 
     }catch (InputMismatchException e){
     //imput equivocado de dados
     System.out.println("Os campos de idade e altura precisam ser numericos");
