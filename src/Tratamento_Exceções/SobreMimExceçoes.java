@@ -10,7 +10,7 @@ public class SobreMimExceçoes {
 
     public static void main(String[] args){
 
-    try {
+    try{
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Digite seu nome: ");
@@ -31,11 +31,11 @@ public class SobreMimExceçoes {
         System.out.println("Minha altura é " + altura + "metros");
         scanner.close();    
 
-    } 
-    catch (InputMismatchException e){
-        //imput equivocado de dados
-        System.out.println("Os campos de idade e altura precisam ser numericos");
+    }catch (InputMismatchException e){
+    //imput equivocado de dados
+    System.out.println("Os campos de idade e altura precisam ser numericos");
     }
+
     //importante saber que erro esta sendo disparado para o devido tratamento    
     }
 }

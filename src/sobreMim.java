@@ -20,12 +20,12 @@ public class sobreMim {
         double altura = scanner.nextDouble();
         
 
-        /*String nome = args[0];
+    /*  String nome = args[0];
         String sobrenome = args[1];
         int idade = Integer.valueOf(args[2]);
-        double altura = Double.valueOf(args[3]); */
+        double altura = Double.valueOf(args[3]); 
+    */
 
-        
         //Imprimindo os dados obdidos pelo osuarios 
         System.out.println("Olá me chamo " + nome + " "+ sobrenome);
         System.out.println("tenho " + idade + " anos");
