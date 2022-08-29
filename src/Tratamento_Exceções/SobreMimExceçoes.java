@@ -3,11 +3,9 @@ package Tratamento_Exceções;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 import java.util.Locale;
-
-// try / catch
+//                                                                             try / catch
 
 public class SobreMimExceçoes {
-
     public static void main(String[] args){
 
     try{
@@ -30,13 +28,13 @@ public class SobreMimExceçoes {
         System.out.println("tenho " + idade + " anos");
         System.out.println("Minha altura é " + altura + "metros");
         scanner.close();
-        
+
              //pegeuei no terminal, depois de dar erro 
     }catch (InputMismatchException e){
     //imput equivocado de dados
     System.out.println("Os campos de idade e altura precisam ser numericos");
     }
+    //importante saber que erro esta sendo disparado para o devido tratamento
 
-    //importante saber que erro esta sendo disparado para o devido tratamento    
     }
 }
