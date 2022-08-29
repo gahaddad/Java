@@ -17,7 +17,7 @@ public class DoWhile {
 
     private static boolean tocando(){ //metodo tocando randomico
 
-        int bound = 4;
+        int bound = 3;
 
         boolean atendeu = new Random().nextInt(bound)==1;
         System.out.println("Atendeu? " + atendeu);

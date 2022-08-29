@@ -1,36 +1,41 @@
-import java.util.Locale;
-import java.util.Scanner;
+package Tratamento_Exceções;
 
-public class sobreMim {
+import java.util.Scanner;
+import java.util.InputMismatchException;
+import java.util.Locale;
+
+// try / catch
+
+public class SobreMimExceçoes {
+
     public static void main(String[] args){
 
-        //criando o objeto scanner 
+    try {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Digite seu nome: ");
         String nome = scanner.next();
-        
+            
         System.out.println("Digite seu sobrenome: ");
         String sobrenome = scanner.next();
-
+    
         System.out.println("Digite sua idade: ");
         int idade = scanner.nextInt();
-
+    
         System.out.println("Digite sua altura ");
         double altura = scanner.nextDouble();
-        
+    
 
-        /*String nome = args[0];
-        String sobrenome = args[1];
-        int idade = Integer.valueOf(args[2]);
-        double altura = Double.valueOf(args[3]); */
-
-        
-        //Imprimindo os dados obdidos pelo osuarios 
         System.out.println("Olá me chamo " + nome + " "+ sobrenome);
         System.out.println("tenho " + idade + " anos");
         System.out.println("Minha altura é " + altura + "metros");
-        scanner.close();
+        scanner.close();    
+
+    } 
+    catch (InputMismatchException e){
+        //imput equivocado de dados
+        System.out.println("Os campos de idade e altura precisam ser numericos");
     }
-    
+    //importante saber que erro esta sendo disparado para o devido tratamento    
+    }
 }
