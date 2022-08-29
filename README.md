@@ -1,4 +1,4 @@
-# Java-1
+# Java
 
-Projeto Java
-Aula Java
+Curso Java 
+Projetos da aula
