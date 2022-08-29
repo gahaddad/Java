@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Contador",
+            "request": "launch",
+            "mainClass": "Edu.Execercio.Contador",
+            "projectName": "Java_19528381"
+        },
+        {
+            "type": "java",
             "name": "Launch FormartarCep",
             "request": "launch",
             "mainClass": "Tratamento_Exceções.FormartarCep",
