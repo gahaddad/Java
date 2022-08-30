@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Contador",
             "request": "launch",
+            "mainClass": "Tratamento_Exceções.Contador",
+            "projectName": "Java_19528381"
+        },
+        {
+            "type": "java",
+            "name": "Launch Contador",
+            "request": "launch",
             "mainClass": "Edu.Execercio.Contador",
             "projectName": "Java_19528381"
         },
